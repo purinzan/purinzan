@@ -1,6 +1,6 @@
 <svg width="1280" height="360" viewBox="0 0 1280 360" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
   <title id="title">purinzan profile banner</title>
-  <desc id="desc">A dark technical banner for local-first factory automation and AI-assisted engineering tools.</desc>
+  <desc id="desc">A technical banner for local-first factory automation and AI-assisted engineering tools.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="360" gradientUnits="userSpaceOnUse">
       <stop stop-color="#0B1020"/>
@@ -40,11 +40,11 @@
   <g opacity="0.95">
     <text x="96" y="112" fill="#E5E7EB" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="48" font-weight="700">local-first engineering tools</text>
     <text x="100" y="160" fill="#B6C2D4" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="22">PLC analysis / MCP / evidence-driven automation review</text>
+    <text x="100" y="196" fill="#94A3B8" font-family="Segoe UI, Yu Gothic, Meiryo, Arial, sans-serif" font-size="20">ローカル優先のPLC解析とAI支援エンジニアリング</text>
   </g>
 
   <g transform="translate(972 252)">
     <rect x="0" y="0" width="214" height="42" rx="8" fill="#0F172A" stroke="#475569"/>
-    <text x="22" y="27" fill="#CBD5E1" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="15" font-weight="600">purinzan.github.io-ready</text>
+    <text x="28" y="27" fill="#CBD5E1" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="15" font-weight="600">public repo / CI passing</text>
   </g>
 </svg>
-
