@@ -1,0 +1,50 @@
+<svg width="1280" height="360" viewBox="0 0 1280 360" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">purinzan profile banner</title>
+  <desc id="desc">A dark technical banner for local-first factory automation and AI-assisted engineering tools.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="360" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B1020"/>
+      <stop offset="0.52" stop-color="#111827"/>
+      <stop offset="1" stop-color="#17313E"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="160" y1="55" x2="1120" y2="305" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#38BDF8"/>
+      <stop offset="0.5" stop-color="#22C55E"/>
+      <stop offset="1" stop-color="#F59E0B"/>
+    </linearGradient>
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feColorMatrix in="blur" type="matrix" values="0 0 0 0 0.22 0 0 0 0 0.74 0 0 0 0 0.97 0 0 0 0.45 0"/>
+      <feBlend in="SourceGraphic" mode="screen"/>
+    </filter>
+  </defs>
+
+  <rect width="1280" height="360" fill="url(#bg)"/>
+
+  <g opacity="0.28">
+    <path d="M0 72H1280M0 144H1280M0 216H1280M0 288H1280" stroke="#94A3B8" stroke-width="1"/>
+    <path d="M80 0V360M160 0V360M240 0V360M320 0V360M400 0V360M480 0V360M560 0V360M640 0V360M720 0V360M800 0V360M880 0V360M960 0V360M1040 0V360M1120 0V360M1200 0V360" stroke="#94A3B8" stroke-width="1"/>
+  </g>
+
+  <g filter="url(#softGlow)">
+    <path d="M160 245H265L335 142H443L509 211H612L676 110H779L848 205H964L1034 126H1120" stroke="url(#accent)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="160" cy="245" r="9" fill="#38BDF8"/>
+    <circle cx="335" cy="142" r="9" fill="#38BDF8"/>
+    <circle cx="509" cy="211" r="9" fill="#22C55E"/>
+    <circle cx="676" cy="110" r="9" fill="#22C55E"/>
+    <circle cx="848" cy="205" r="9" fill="#F59E0B"/>
+    <circle cx="1034" cy="126" r="9" fill="#F59E0B"/>
+    <circle cx="1120" cy="126" r="9" fill="#F59E0B"/>
+  </g>
+
+  <g opacity="0.95">
+    <text x="96" y="112" fill="#E5E7EB" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="48" font-weight="700">local-first engineering tools</text>
+    <text x="100" y="160" fill="#B6C2D4" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="22">PLC analysis / MCP / evidence-driven automation review</text>
+  </g>
+
+  <g transform="translate(972 252)">
+    <rect x="0" y="0" width="214" height="42" rx="8" fill="#0F172A" stroke="#475569"/>
+    <text x="22" y="27" fill="#CBD5E1" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="15" font-weight="600">purinzan.github.io-ready</text>
+  </g>
+</svg>
+
